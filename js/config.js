@@ -110,6 +110,10 @@ const API_SITES = {
         api: 'https://ikunzyapi.com',
         name: 'iKun资源'
     },
+    杏吧: {
+        api: 'https://sex8zy8.com/',
+        name: '杏吧资源'
+    },
     testSource: {
         api: 'https://www.example.com',
         name: '空内容测试源',
