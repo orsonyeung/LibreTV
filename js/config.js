@@ -127,6 +127,22 @@ const API_SITES = {
     // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
+    麻豆: {
+        api: 'http://91md.me',
+        name: '91麻豆'
+    },
+    奥斯卡: {
+        api: 'https://aosikazy.com',
+        name: '奥斯卡资源'
+    },
+    橘猫: {
+        api: 'https://to.to-long.com',
+        name: '橘猫资源'
+    },
+    草榴: {
+        api: 'https://www.caoliuzyw.com/',
+        name: '草榴资源'
+    },
     ckzy: {
         api: 'https://www.ckzy1.com',
          name: 'CK资源',
