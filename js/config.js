@@ -110,9 +110,9 @@ const API_SITES = {
         api: 'https://ikunzyapi.com',
         name: 'iKun资源'
     },
-    杏吧: {
-        api: 'https://sex8zy8.com/',
-        name: '杏吧资源'
+     秋霞: {
+        api: 'https://m.qiuxia678.com',
+        name: '秋霞资源'
     },
     testSource: {
         api: 'https://www.example.com',
@@ -168,6 +168,14 @@ const API_SITES = {
          name: '玉兔资源',
          adult: true
      },
+     杏吧: {
+        api: 'https://sex8zy8.com',
+        name: '杏吧资源'
+    },
+     萝卜: {
+        api: 'https://ys.lbbb.cc',
+        name: '萝卜解析'
+    },
 };
 
 // 添加聚合搜索的配置选项
