@@ -109,11 +109,7 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    资源: {
-         api: 'https://aosikazy.com',
-         name: '资源'
-     },
-    
+        
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
     // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
@@ -209,19 +205,22 @@ const AGGREGATED_SEARCH_CONFIG = {
 };
 
 // 抽象API请求配置
+// 定义基础路径
+const BASE_PATH = '/api.php/provide/vod/';
+
 const API_CONFIG = {
     search: {
-        // 只拼接参数部分，不再包含 /api.php/provide/vod/
+        // 只保留参数部分
         path: '?ac=videolist&wd=',
         pagePath: '?ac=videolist&wd={query}&pg={page}',
-        maxPages: 50, // 最大获取页数
+        maxPages: 50,
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
             'Accept': 'application/json'
         }
     },
     detail: {
-        // 只拼接参数部分
+        // 只保留参数部分
         path: '?ac=videolist&ids=',
         headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
