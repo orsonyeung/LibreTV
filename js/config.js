@@ -111,8 +111,7 @@ const API_SITES = {
     },
     奥斯卡: {
          api: 'https://aosikazy.com',
-         name: '奥斯卡资源',
-         adult: true
+         name: '奥斯卡资源'
      },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
